@@ -31,12 +31,12 @@
 ## Coloured environments
 
 The coloured/shaded (math) environments can be toggled on/off (globally) using a
-boolean in `main.tex`.
+boolean in `packages.sty`.
 
 ## Overfull `\hbox` warnings
 
 The (coloured) environments generate overfull `\hbox` warnings. This is known,
-as commented on in `main.tex`:
+as commented on in `packages.sty`:
 ```
 % LaTeX thinks this is too wide (as becomes clear from the many "Overfull
 % \hbox" warnings, but optically it looks spot on.
